@@ -2,62 +2,97 @@ This folder has
 
 ### Aim: 
 
-To study the effect of force on hemispherical vane.
+To determine the drag coefficient.
 
 ### THEORY
 
+In fluid flow there is a transfer of momentum which gives rise to a tangential stress or drag on a smooth surface that is oriented parallel to the flow direction. This is called skin drag. In addition to this, additional friction losses occur because of acceleration & deceleration of fluid. The accelerative effects occur when the fluid changes its path to pass around a solid body set in the flow path. This phenomenon is known as form drag.
 
-When a plate is placed in the path of a jet, the jet exerts a force on the plate. This force can be calculated from the impulse momentum equation. Momentum equation is based on Newton's second law of motion, which states that “The algebraic sum of external forces applied to control volume of fluid in any direction is equal to the rate of change of momentum in that direction." The external forces include the components of the weight of the fluid and of the forces exerted externally upon the boundary surface of the control volume.
+Under gravitational field, the motion of a particle through a fluid is due to the density difference between the particle and the fluid. Consider the motion of a spherical particle of diameter dp density through a fluid of viscosity and density
 
-If a vertical jet moving with velocity V is made to strike a target, which is free to move in the vertical direction, then a force will be exerted on the jet by the impact of jet. According to momentum equation, this force must be equal to the rate of change of momentum of the jet flow in the same direction.
-
-Due to impact of the jet on the flat stationary plate, the entire velocity of the jet is destroyed and due to the rate of change of momentum, force acts on the plate. The jet after striking will move along the plate. But the plate is at right angles to the jet. Hence the components of the velocity of the jet in the direction of the jet after striking it will be zero. The force exerted by the jet on the flat plate in the direction of the jet.
- 
+Various forces acting on the particle are:
 
 <img src="images/pic1.png"/>
 
-### Actual Discharge (Qa)
 
-The water flowing through the section of a pipe or a channel under the steady state conditions is collected in a collecting tank for a known time t. The rise of water level in the collecting tank is noted down. The actual discharge is
+(1)	External force Fg
+(2)	Buoyancy force FB  
+(3)	Drag force FD  
 
-<img src="images/pic2.png"/>
+Equation for motion of particle through fluid:
+
+<img src="" />
+
+<br>
+
+<img src="" />
+
+Where m is mass of the sphere particle, Ap is projected area, u is particle velocity and CD is dimensionless drag coefficient. 
+
+Substituting the forces from equation (2) to (4) equation (1) and we get:
 
 
+<img src="" />
 
-### DESCRIPTION
+At terminal velocity condition (du/dt = 0, u = ut) and for spherical partical the equation reduces to.
 
-The setup consists of a sump tank with centrifugal pump to circulate water. A chamber with two side glass is provided for visualization of impact of jet on vanes. Water from sump tank flows through a nozzle and strikes vertically to vane positioned above the nozzle. Two types of vanes are provided that can be fixed one at a time. Arrangement is made for the movement of the plate of the vane under the action of the jet and also because of the weight placed on the loading pan. Measuring tank and stop watch is provided for flow measurement.
+<img src="" />
+
+Motion of spherical particle through fluids:
+
+<img src="" />
+
+Substitute the value of m and Ap in eqution (6) and we get:
+
+
+<img src="" />
+
+Particle Reynolds Number is:
+
+<img src="" />
+
+Plot of CD vs Rep on log log scale
+
+For Rep <= 1
+
+For 1000 (Rep < 200,000) CD = 0.44 (Newton’s Law Region)                                                                                                         
+
+
+### EXPERIMENTAL SET UP
+
+The present set-up consists of three glass tube fitted vertically on a wall structure. Mass are given on the walls of the glass tubes. Fluorescent tube light mounted on the backboard. A valve system is provided at the bottom of each tube for removal of particle. 
+
+Spherical balls are provided as accessories.
+
+
+### CALCULATION TABLE
+
 
 
 
 ### PROCEDURE
 
-1.	Close all the valves.
-2.	Fill sump tank ¾ with clean water and ensure that no foreign particles are there. 
-3.	Open by-pass valve.
-4.	Ensure that ON/OFF switch given on the panel is at OFF position.
-5.	Switch on the main power supply and then switch ON the pump.
-6.	Open flow control valve and allow water to flow through test section by partially closing valve.
-7.	Open the air release valve provided on the manometer, slowly to release the air from manometer.
-8.	When there is no air in the manometer, close air release valve.
-9.	Set the position of pitot tube at the centre of the test section by adjusting the pointer to zero by knob provided.
-10.	Adjust water flow rate with the help of control valve and by pass valve.
-11.	Record the manometer reading.
-12.	Measure the flow of water, discharged, using stop watch and measuring tank.
-13.	Repeat the experiment for different flow rates of water by operating control valve and by-pass valve.
-14.	Record the manometer reading for different position of pitot tube at particular discharge for determination of velocity profile.
+1. Close all the valves V1-V6.
+2. Fill the three tubes with three different liquid.
+3. Select the balls of different size.
+4. Note down their diameter.
+5. Switch ON the power supply.
+6. Now drop one ball in one of the column.
+7. Note the distance traveled by ball and time taken by it.
+8. Repeat the experiment for different column.
+9. Repeat the experiment for different balls.
+
 
 
 ### RESULTS
 
-Rate of change of momentum for hemispherical vane = ________N
+Drag coefficient = 
 
 
 ### PRECAUTIONS
 
-1.	Never run the apparatus if power supply is less than 180 volts and above 230 volts.
-2.	Always use clean water.
-3.	To prevent clogging of moving parts, run pump at least once in a fortnight.
-4.	Drain the apparatus completely after experimentation.
-5.	Always keep apparatus free from dust.
+1. During the experiment upper valve should be open and bottom valve should be close.
+2.	If the equipment is not in use more than one month drain the fluids and clean the columns.
+3.	Collect the balls by close the upper valve and open the bottom valve for reuse.
+
 
