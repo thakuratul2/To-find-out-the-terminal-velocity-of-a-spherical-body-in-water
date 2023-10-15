@@ -92,7 +92,7 @@ Drag coefficient =
 ### PRECAUTIONS
 
 1. During the experiment upper valve should be open and bottom valve should be close.
-2.	If the equipment is not in use more than one month drain the fluids and clean the columns.
-3.	Collect the balls by close the upper valve and open the bottom valve for reuse.
+2. If the equipment is not in use more than one month drain the fluids and clean the columns.
+3. Collect the balls by close the upper valve and open the bottom valve for reuse.
 
 
