@@ -18,33 +18,34 @@
     <center>
       <div id="struct">
         <img src="./images/lab 7 main11.jpg" alt="" class="baseimg" id="photo">
-        
+
         <video id="video" autoplay style="display: none;">
           <source src="./images/lab_6.mp4" type="video/mp4">
           Your browser does not support the video tag.
-      </video>
+        </video>
         <img src="./images/Asset 4.png" alt="" class="valve" id="showVideoButton"><!--valveeee-->
-      
+
       </div>
     </center>
- 
- 
- 
+
+
+
     <center>
-      <button class="tab-button" id="button2" onclick="datasheet()" >Record</button>
-     
+      <button class="tab-button" id="button2" onclick="datasheet()">Record</button>
+
     </center>
     <div id="table">
-   
-      <h2>Data Sheet</h2>  
-     
-      <h3 style="margin-left:10%; ">Diameter of balls, D=0.048 m</h3>     
-     
-      <h3 style="margin-left:10%; ">Acceleration due to gravity g=9.18 m/sec<sup>2</sup></h3>  
-      
+
+      <h2>Data Sheet</h2>
+
+      <h3 style="margin-left:10%; ">Diameter of balls, D=0.048 m</h3>
+
+      <h3 style="margin-left:10%; ">Acceleration due to gravity g=9.18 m/sec<sup>2</sup></h3>
+
       <h3 style="margin-left:10%; ">Density of ball =13600 Kg/m<sup>3</sup></h3>
       <h3 style="margin-left:10%; ">Density of water &rho;<sub>water</sub> = 1000 kg/m<sup>3</sup></h3>
-      <h3 style="margin-left:10%; ">Viscosity of water &mu;<sub>water</sub>= 8.29x10<sup>-4</sup>N-sec/m<sup>2</sup></h3>
+      <h3 style="margin-left:10%; ">Viscosity of water &mu;<sub>water</sub>= 8.29x10<sup>-4</sup>N-sec/m<sup>2</sup>
+      </h3>
       <h3 style="margin-left:10%; ">Density of glycerine &rho;<sub>gly</sub> = 1260 kg/m<sup>3</sup></h3>
       <h3 style="margin-left:10%; ">Viscosity of glycerine &mu;<sub>gly</sub>= 1.412 N-sec/m<sup>2</sup></h3>
       <h3 style="margin-left:10%; ">Density of steel ball &rho;<sub>SB</sub> = 7750 kg/m<sup>3</sup></h3>
@@ -64,135 +65,135 @@
    
       -->
       <table id="tab">
-        
+
         <tr>
-          
-          <th  >SNo.</th>
-                
-          <th>X cm</th>         
-          <th >t sec</th>
-         
+
+          <th>SNo.</th>
+
+          <th>X cm</th>
+          <th>t sec</th>
+
         </tr>
-  
+
         <tr>
-          <td rowspan="4"  id="sno">1</td>
-         
-        
+          <td rowspan="4" id="sno">1</td>
+
+
           <td id="x"></td>
           <td id="t"></td>
-        
+
         </tr>
         <tr>
-         
-        
-          <td  id="x1"> </td>
-          <td  id="t1"> </td>
+
+
+          <td id="x1"> </td>
+          <td id="t1"> </td>
         </tr>
         <tr>
-         
-         
-         
+
+
+
           <td id="x2"></td>
           <td id="t2"></td>
         </tr>
         <tr>
-         
-          <td  id="x3"> </td>
-          <td  id="t3"> </td>
-         
-          
+
+          <td id="x3"> </td>
+          <td id="t3"> </td>
+
+
         </tr>
-        <td  rowspan="4" id="sno">2</td>
-         
-       
+        <td rowspan="4" id="sno">2</td>
+
+
         <td id="x4"></td>
         <td id="t4"></td>
-      </tr>
-      <tr>
-       
-        <td  id="x5"> </td>
-        <td  id="t5"> </td>
-       
-        
-      </tr>
-      <tr>
-     
-      
-      <td id="x6"></td>
-      <td id="t6"></td>
-    </tr>
-    <tr>
-     
-      <td  id="x7"> </td>
-      <td  id="t7"> </td>
-     
-      
-    </tr>
-    
+        </tr>
+        <tr>
+
+          <td id="x5"> </td>
+          <td id="t5"> </td>
+
+
+        </tr>
+        <tr>
+
+
+          <td id="x6"></td>
+          <td id="t6"></td>
+        </tr>
+        <tr>
+
+          <td id="x7"> </td>
+          <td id="t7"> </td>
+
+
+        </tr>
+
       </table>
       <br><br>
       <h2 style="margin-left:10%; margin-bottom:2%;">Calculation table:</h2>
-        <table id="tab">
-        
+      <table id="tab">
+
         <tr>
-          
-          <th  >SNo.</th>
-          <th >U<sub>t</sub> m/sec</th>             
-          <th >Re<sub>p</sub></th>         
-          <th >C<sub>d</sub></th>
-         
+
+          <th>SNo.</th>
+          <th>U<sub>t</sub> m/sec</th>
+          <th>Re<sub>p</sub></th>
+          <th>C<sub>d</sub></th>
+
         </tr>
-  
+
         <tr>
-          <td  id="sno">1</td>
-         
-          <td  id="u1"> </td>
+          <td id="sno">1</td>
+
+          <td id="u1"> </td>
           <td id="r1"><input type="text" placeholder="Enter calculated value"></td>
           <td id="c1"><input type="text" placeholder="Enter calculated value"></td>
-        
+
         </tr>
         <tr>
-          <td  id="sno">2</td>
-        
-          <td  id="u2"> </td>
+          <td id="sno">2</td>
+
+          <td id="u2"> </td>
           <td id="r2"><input type="text" placeholder="Enter calculated value"></td>
           <td id="c2"><input type="text" placeholder="Enter calculated value"></td>
-       
+
         </tr>
         <tr>
-          <td  id="sno">3</td>
-         
-          <td  id="u3"> </td>
+          <td id="sno">3</td>
+
+          <td id="u3"> </td>
           <td id="r3"><input type="text" placeholder="Enter calculated value"></td>
           <td id="c3"><input type="text" placeholder="Enter calculated value"></td>
-         
+
         </tr>
         <tr>
-          <td  id="sno">4</td>
-         
-          <td  id="u4"> </td>
+          <td id="sno">4</td>
+
+          <td id="u4"> </td>
           <td id="r4"><input type="text" placeholder="Enter calculated value"></td>
           <td id="c4"><input type="text" placeholder="Enter calculated value"></td>
-         
+
         </tr>
-      
+
 
       </table>
-  
+
       <br /><br />
-      
-    
-      
-      
-      
-   
 
 
-   
-  </div>
+
+
+
+
+
+
+
+    </div>
   </div>
   <script src="js/record.js"></script>
-  
+
   <script src="js/valve.js"></script>
   <script src="js/test.js"></script>
 </body>
